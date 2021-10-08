@@ -34,8 +34,10 @@ export class techinicianRepository extends Repository<TechnicianEntity > {
     }
 
     async updateDataTechinician(registration:string,data:UpdateTechnicianDto){
-        const tec = await this.findOneTechnician(registration);
+        let tec = await this.findOneTechnician(registration);
         this.merge(tec,data);
+
+        
         return this.save(tec);
     }
 }
