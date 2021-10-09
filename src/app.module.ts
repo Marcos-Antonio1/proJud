@@ -11,11 +11,11 @@ import { WorkInProcessModule } from './work-in-process/work-in-process.module';
   imports: [
   TypeOrmModule.forRoot({
     type:"postgres",
-    host: 'localhost',
+    host: 'ec2-54-172-169-87.compute-1.amazonaws.com',
     port: 5432,
-    username: 'postgres',
-    password: 'root',
-    database: 'proJud',
+    username: 'itaajdbmjdpgls',
+    password: 'bb403b948655d827712d6f7203ec8804016adbc2b575f3106fdf750e459577ea',
+    database: 'datik56us3qjh8',
     entities: [__dirname +'/**/*.entity{.js,.ts}'],
     synchronize: true,
   }),
