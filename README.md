@@ -23,6 +23,16 @@ Sistema que simula um ambiente de manunteção de processos, o principal intuito
 - [:heavy_check_mark:] Terminar Edição em processo(unlock recurso)
 - [:heavy_check_mark:] Autenticação e autorização
 
+# Diagrama de sequência
+<div align = "center">
+  <img src="https://user-images.githubusercontent.com/33884828/147161337-c2e8ee39-ff13-435d-a603-775dde63df13.png"> 
+</div>
+
+# Diagrama de Componentes
+<div align = "center">
+  <img src="https://user-images.githubusercontent.com/33884828/147161511-a359f627-4a72-4a72-9e41-9e327b77c7c5.png"> 
+</div>
+
 # Preview Telas
 <p align="center">
   <img src="https://user-images.githubusercontent.com/33884828/147135011-e3cd1239-6bf2-417f-b6d6-a5a9640d21d3.png" width="350" title="hover text">
